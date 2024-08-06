@@ -52,7 +52,7 @@ namespace BoomboxController.Boombox
                 }
             }
             __instance.boomboxAudio.volume = 0.5f;
-            __instance.itemProperties.weight = 0;
+            __instance.itemProperties.weight = 0.0001f;
             __instance.musicAudios = null;
             __instance.itemProperties.requiresBattery = Plugin.config.requstbattery.Value;
             boomboxItem = __instance;
